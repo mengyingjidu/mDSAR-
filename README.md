@@ -8,6 +8,8 @@ Zero-Shot SAR Image Restoration via Dual Statistical Adaptive Regularization
 
 ```text
 exp/logs/imagenet/
+```
+
 ## 数据集
 
 本项目在 SSDD 和 HRSID 两个 SAR 舰船数据集上进行实验。请从以下链接下载原始数据集，并按照实验设置完成图像预处理。
@@ -32,4 +34,4 @@ SSDD_100/
 HRSID_100/
 ```
 
-本项目实验中将输入图像统一处理为 256 × 256，并分别选取 100 幅图像进行测试。原始数据集版权及使用要求以对应官方仓库的说明为准。
+本项目实验中将输入图像统一处理为 256 × 256，并分别选取 100 幅图像进行测试。
