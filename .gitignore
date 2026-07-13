@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Private server configuration
+sftp.json
+
+# Datasets and experimental outputs
+SSDD_100/
+HRSID_100/
+exp/
+results/
+logs/
+
+# Editor files
+.vscode/
+.idea/
+
+# Windows files
+Thumbs.db
+Desktop.ini
